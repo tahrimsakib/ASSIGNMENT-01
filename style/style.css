@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(245, 248, 255);
+}
+
 header {
     margin: 0px;
     background-image: url(../Assets/Hero-bg.png);
@@ -30,13 +34,18 @@ header {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: rgb(140, 43, 64);
+    box-shadow: 0 8px 20px rgb(5, 5, 5);
+}
+
 .header-cap {
-    padding: 110px 260px 200px 260px;
+    padding: 10px 260px 200px 260px;
     text-align: center;
 }
 
 .header-cap h1 {
-    font-size: 65px;
+    font-size: 75px;
     font-weight: bold;
     /* padding-bottom: 30px; */
 }
@@ -118,7 +127,11 @@ header {
     font-size: 100px;
     font-weight: bold;
 }
-
+.form-h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
@@ -138,17 +151,38 @@ header {
     text-align: center;
     padding: 19px 200px;
 }
-
 footer{
-    text-align: center;
-    margin: 233px 454px 145px 454px;
+        background-color: rgb(255, 255, 255);
+margin: 0;
 }
-footer h1{
+footer section {
+    text-align: center;
+    padding: 23px 454px 45px 454px;
+
+}
+
+footer h1 {
     color: #4E47FF;
     font-size: 100px;
     font-weight: bold;
+    gap: 8px;
 }
-footer p{
+
+footer p {
     color: #8987A1;
     font-size: 25px;
+}
+
+.footer-link-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.footer-link:hover {
+    color: #4d4df7;
 }

@@ -1,6 +1,21 @@
 body {
     background-color: rgb(245, 248, 255);
 }
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 header {
     margin: 0px;
@@ -16,7 +31,7 @@ header {
 
 .hear-logo {
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 900;
     color: #4E47FF;
 }
 

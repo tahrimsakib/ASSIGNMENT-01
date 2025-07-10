@@ -1,12 +1,44 @@
-.btn {
+header {
+    margin: 0px;
+    background-image: url(../Assets/Hero-bg.png);
+}
 
-    padding: 10px 20px;
+.head-nav {
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.hear-logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.btn {
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
     background-color: #4d4df7;
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.header-cap {
+    padding: 110px 260px 200px 260px;
+    text-align: center;
+}
+
+.header-cap h1 {
+    font-size: 65px;
+    font-weight: bold;
+    /* padding-bottom: 30px; */
 }
 
 .action-container {
@@ -47,6 +79,7 @@
 }
 
 .user-title {
+    color: #252432;
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -74,14 +107,14 @@
 
 
 
-.form-section{
+.form-section {
     margin: 10px 150px;
     padding: 70px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.form-caption{
+.form-caption {
     font-size: 100px;
     font-weight: bold;
 }
@@ -99,9 +132,23 @@
     width: 100%;
 }
 
-.btn-getin{
+.btn-getin {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     padding: 19px 200px;
+}
+
+footer{
+    text-align: center;
+    margin: 233px 454px 145px 454px;
+}
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+}
+footer p{
+    color: #8987A1;
+    font-size: 25px;
 }

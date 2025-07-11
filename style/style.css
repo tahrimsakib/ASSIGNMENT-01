@@ -127,6 +127,34 @@ header {
 }
 
 
+.rating-title{
+text-align: center;}
+
+.rating-container{
+    margin: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.rating-box{
+    background-color: white;
+    border-radius: 30px;
+    padding: 24px;
+    gap: 24px;
+}
+.rating-thiree{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-img{
+    border-radius: 30px;
+}
+
+.user-name-date{
+color: #8987A1;
+}
 
 
 .form-section {

@@ -155,7 +155,11 @@ header {
     border-radius: 30px;
 }
 
-.user-name-date {
+.rating-user-name  {
+    font-weight: bold;
+    color: #8987A1;
+}
+.rating-user-date{
     color: #8987A1;
 }
 

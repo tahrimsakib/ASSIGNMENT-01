@@ -3,16 +3,15 @@ body {
 }
 
 .raleway-main {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .inter-second {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
@@ -24,6 +23,7 @@ header {
 .head-nav {
     margin: 0px 150px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 50px 0px;
 }
@@ -126,34 +126,37 @@ header {
     color: rgba(0, 0, 0, 0.5);
 }
 
-
 .rating-title{
-text-align: center;}
-
-.rating-container{
-    margin: 130px 150px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    text-align: center;
 }
-.rating-box{
+.raitng-main-box{
+    display: flex;
+    margin: 30px 150px;
+}
+.rating-container{
+    padding: 24px;
+}
+
+
+.rating-box {
+    border: 1px solid rgb(240, 240, 240);
     background-color: white;
     border-radius: 30px;
     padding: 24px;
     gap: 24px;
 }
-.rating-thiree{
+.rating-user{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
-.user-img{
+.rating-user img {
     border-radius: 30px;
 }
 
-.user-name-date{
-color: #8987A1;
+.user-name-date {
+    color: #8987A1;
 }
 
 
@@ -174,9 +177,11 @@ color: #8987A1;
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
 }
-.feedback-form{
+
+.feedback-form {
     width: 490px;
 }
+
 .feedback-form input[type="text"],
 .feedback-form input[type="email"],
 .feedback-form textarea {

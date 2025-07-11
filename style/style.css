@@ -25,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 5px 0px 40px 0;
 }
 
 .hear-logo {
@@ -81,7 +81,7 @@ header {
 
 .action-dis {
     color: rgba(37, 36, 50, 0.5);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -105,7 +105,7 @@ header {
     color: #252432;
     font-size: 38px;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .user-div {
@@ -143,7 +143,7 @@ header {
 .rating-box {
     border: 1px solid rgb(240, 240, 240);
     background-color: white;
-    border-radius: 30px;
+    border-radius: 14px;
     padding: 24px;
     gap: 24px;
 }
@@ -156,16 +156,32 @@ header {
     gap: 10px;
 }
 
+.rating-dis h4 {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.rating-dis p {
+    margin-bottom: 24px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
 .rating-user img {
     border-radius: 30px;
 }
 
 .rating-user-name {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
     color: #8987A1;
 }
 
 .rating-user-date {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #8987A1;
 }
 
@@ -179,7 +195,8 @@ header {
 }
 
 .form-caption {
-align-content: center;    font-size: 70px;
+    align-content: center;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -223,6 +240,7 @@ footer section {
     text-align: center;
     padding: 23px 454px 45px 454px;
 
+
 }
 
 footer h1 {
@@ -230,11 +248,13 @@ footer h1 {
     font-size: 100px;
     font-weight: 900;
     gap: 8px;
+    margin-bottom: 0px;
+
 }
 
 footer p {
     color: #8987A1;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .footer-link-container {

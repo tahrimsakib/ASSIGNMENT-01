@@ -2,21 +2,19 @@ body {
     background-color: rgb(245, 248, 255);
 }
 
-.open-sans-raleway {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+.raleway-main {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.open-sans-inter {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+.inter-second {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
 
 header {
     margin: 0px;
@@ -186,13 +184,13 @@ footer section {
 footer h1 {
     color: #4E47FF;
     font-size: 100px;
-    font-weight: bold;
+    font-weight: 900;
     gap: 8px;
 }
 
 footer p {
     color: #8987A1;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .footer-link-container {

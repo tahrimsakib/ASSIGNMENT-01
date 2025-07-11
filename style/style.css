@@ -126,14 +126,16 @@ header {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.rating-title{
+.rating-title {
     text-align: center;
 }
-.raitng-main-box{
+
+.raitng-main-box {
     display: flex;
     margin: 30px 150px;
 }
-.rating-container{
+
+.rating-container {
     padding: 24px;
 }
 
@@ -145,9 +147,12 @@ header {
     padding: 24px;
     gap: 24px;
 }
-.rating-user{
+
+.rating-user {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+
     gap: 10px;
 }
 
@@ -155,11 +160,12 @@ header {
     border-radius: 30px;
 }
 
-.rating-user-name  {
+.rating-user-name {
     font-weight: bold;
     color: #8987A1;
 }
-.rating-user-date{
+
+.rating-user-date {
     color: #8987A1;
 }
 
@@ -168,11 +174,12 @@ header {
     margin: 10px 150px;
     padding: 70px 0px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .form-caption {
-    font-size: 80px;
+align-content: center;    font-size: 70px;
     font-weight: bold;
 }
 
